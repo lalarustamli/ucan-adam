@@ -8,6 +8,9 @@
 	
 	animation: heciget 2s infinite ;
 }
+.heci>div{
+	background-color: black;
+}
 .head{
 	width: 100px;
 	height: 100px;
@@ -51,7 +54,7 @@
 	height: 400px;
 	border:1px solid black;
 	position: absolute;
-	top: 410px;
+	top: 400px;
 	left: 60px;
 	transform: skew(15deg);
 	
