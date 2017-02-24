@@ -1,0 +1,134 @@
+.heci{
+	width: 400px;
+
+	height: 900px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+	animation: heciget 2s infinite ;
+}
+.head{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 100%;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+
+}
+.body{
+	width: 50px;
+	height: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 110px;
+	left: 30px;
+}
+.arm-1{
+	width: 10px;
+	height: 200px;
+	border: 1px solid black;
+	position: absolute;
+	top: 120px;
+	left: 70px;
+	transform-origin: top;
+	transform: skew(15deg);
+	animation: qol 2s infinite;
+}
+.arm-2{
+	width: 10px;
+	height: 200px;
+	border: 1px solid black;
+	position: absolute;
+	top: 120px;
+	left: 30px;
+	animation: qol-2 2s infinite;
+}
+.leg-1{
+	width: 20px;
+	height: 400px;
+	border:1px solid black;
+	position: absolute;
+	top: 410px;
+	left: 60px;
+	transform: skew(15deg);
+	
+	animation: yeri 2s infinite;
+	    transform-origin: top;
+}
+.leg-2{
+	width: 20px;
+	height: 400px;
+	border:1px solid black;
+	position: absolute;
+	top: 410px;
+	left: 30px;
+	transform: skew(170deg);
+	animation: yeri-2 2s infinite;
+	transform-origin: top;
+	
+
+	
+}
+
+@keyframes heciget{
+	0%{
+		top: 20px;
+		left: 0;
+		transform-origin: top;
+		
+		
+	}
+	100%{
+		top: 20px;
+		left: 1000px;
+		
+
+	}
+	
+}
+@keyframes yeri{
+	100%{
+	transform: skew(10deg);
+	
+	
+	transform: rotate(50deg);
+	}
+
+}
+@keyframes yeri-2{
+	100%{
+	transform: skew(177deg);
+	
+	transform: rotate(-50deg); ;
+
+	}
+
+}
+@keyframes qol{
+	100%{
+	transform: skew(177deg);
+	
+	transform: rotate(-50deg); ;
+
+	}
+
+}
+@keyframes qol-2{
+	100%{
+	transform: skew(-177deg);
+	
+	transform: rotate(20deg); ;
+
+	}
+
+}
+
+
+
+
+
+
+
